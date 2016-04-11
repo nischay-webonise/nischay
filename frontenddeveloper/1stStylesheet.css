@@ -1,0 +1,53 @@
+body{
+      font-family:"calibri", Garamond, 'Comic Sans';
+      position:absolute;
+}
+h1{
+     top:0px;
+     margin-top:0px;
+     margin-bottom:0px;
+     background-color:white;
+     font-size:35px;
+     position:fixed;
+     width:100%;
+     display:block;
+     
+}
+h2{
+     top:11px;
+     font-size:35px;
+     
+     margin-bottom:25px;
+     text-align:center;
+     background-color:rgb(180,180,180);     
+     padding-top:70px;
+     padding-bottom:70px;
+     position:fixed;
+     width:100%;
+     display:block;
+     heigth:30px;
+     
+}
+h3{
+     margin-top:220px;
+     margin-bottom:5px;
+     font-size:35px;
+     font-weight:normal;
+     
+}
+h4{
+     font-weight:300;
+     font-size:25px;
+     margin-bottom:0px;
+     margin-top:0px;        
+}
+.p1{
+     margin-top:5px;
+     margin-bottom:5px;
+}
+a{
+     display:block;
+}
+.a1{
+     display:inline;
+}
