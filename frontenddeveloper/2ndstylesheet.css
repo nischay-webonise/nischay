@@ -5,63 +5,66 @@
     Description:
         Purpose of the stylesheet follows.
 */
-
+a{
+    text-decoration:none;
+    color: inherit;
+    padding-top:18px;
+    padding-bottom:18px;
+ 
+}
+li{
+    list-style-type:none;
+}
 html, body {
     margin: 0;
     padding: 0;
     font-family:"calibri", Garamond, 'Comic Sans';
 }
-
+ul.navigation li:hover{
+    background-color:#ff8000;
+    color:white;
+}
 .navigation
 {
     order-list-type: none;
     text-align: center;
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-left:200px;
 }
 .navigation li:last-child{
     margin-right:150px;
 }
+.navigation li:first-child{
+    margin-left:500px;
+}
 .navigation li
 {
-    display: inline;
+    margin-top: 0px;
+    margin-bottom: 4px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    top:-25px;
     font-size: 18px;
-    position: relative;
+    float:left;
     margin-right:35px;
     color: #aaaaaa;
     font-weight:600;
+    l
     
 }
 
-
-.logo
-{
-    width:140px;
-    height:35px;
-    top:-25px;
-    left: 150px;
-    background-color: #ff8000;
-    position:relative;
-    float:left;
-    clear:both;
-}
 
 .topheader
 {
     width: 100%;
     height: 50px;
     background-color:#444444;
-    position:absolute;
+    
     
 }
 
 
-.logo
-{
-    width:140px;
-    height:35px;
-    background-color: #ff8000;
-    float:left;
-    margin-right:20px;
-}
 
 .banner
 {
@@ -79,7 +82,7 @@ h1
     color:#444444;
     margin-top: 64px;
     margin-bottom: 70px;
-    
+    position:relative;
 }
 
 .circle
@@ -88,29 +91,43 @@ h1
     height: 140px;
     width: 140px;
     border-radius: 70px;
-    display:inline-block;
-    position:relative;
+    margin-left: 75px;
+    
 }
 
 .span4
 {
     margin-left:75px;
-    display:inline-block;
+    float:left;
     
 }
 .p1
 {
-    margin-top:1px;
-    position:absolute;
+
+    margin-top: 40px;
+    margin-bottom: 6px;
+    margin-left: 75px;
+    float:left;
     width:140px;
-    text-align:center;
-    margin-bottom:200px; 
+    text-align:center; 
     color:#888888;   
+}
+
+.p1:hover{
+    color:black;
+}
+.circle:hover
+{
+    background-color:	#808080;
 }
 .container
 {
-    padding-right:100px;
+    
     text-align:center;
+    margin-left:300px;
+    margin-right:200px;
+    
+    position:relative;
 }
 
 .footer
@@ -118,35 +135,37 @@ h1
     width: 100%;
     height: 50px;
     background-color: #ECECEC;
-    position: absolute;
+    
 
 }
 .footer
 {
-    margin-top:190px;
+    margin-top:400px;
 }
-.footer:hover
+.footerlist li:hover
 {
-    background-color:#444444;
+   
+    color:black;
 }
 .footerlist
 {
     order-list-type: none;
     text-align: center;
+    margin-top: 300px;
 }
 
+.footerlist li:first-child{
+    margin-left:700px;
+}
 .footerlist li
 {
-    display: inline;
+    float:left;
     font-size: 16px;
-    position: relative;
-    margin-left: 27px;
+    margin-top: 0px;
+    padding-top: 16px;
+    margin-left: 75px;
     color: #ff8000;
     font-weight:600;
 }
 
-.footerlist li.hometxt
-{
-    color:#444444;
-    
-}
+
